@@ -22,7 +22,7 @@ export class RecipeService {
         new Ingredient('Meat',1)
       ])
   ];
-  recipeSelected = new EventEmitter<Recipe>();
+
 
   constructor(private slService: ShoppingListService) {}
 
